@@ -7,6 +7,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mob4">
+        <service
+            android:name=".PlayerService"
+            android:enabled="true"
+            android:exported="true"></service>
 
         <activity
             android:name=".MainActivity"
